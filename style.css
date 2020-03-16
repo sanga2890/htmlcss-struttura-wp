@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#container {
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+
+header{
+    background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+}
+
+#menu {
+    background-color: grey;
+
+}
+
+.rss-feed {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+}
+
+.text {
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+}
