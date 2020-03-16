@@ -128,11 +128,18 @@ footer {
     height: 100px;
     margin: auto;
     margin-top: 40px;
-    padding-top: 35px;
 }
 
 footer a{
     padding-left: 100px;
     padding-right: 100px;
     opacity: 0.4;
+}
+
+footer p{
+    opacity: 0.4;
+}
+
+hr{
+    margin-bottom: 20px;
 }
