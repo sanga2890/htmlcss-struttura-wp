@@ -6,11 +6,9 @@
 
 #container {
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
-    background-size: auto;
-    background-repeat: repeat;
 }
 
-#container::after{
+#contenuto::after{
     content: "";
     display: table;
     clear: both;
@@ -25,11 +23,17 @@ header{
     height: 300px;
     border: 10px solid white;
 
+
 }
 
 #menu {
     background-color: grey;
     text-align: center;
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    padding-top: 17px;
+    margin-bottom: 20px;
 
 
 
@@ -37,11 +41,19 @@ header{
 #menu a {
     text-decoration: none;
     color: white;
+    padding: 10px;
+}
+
+#contenuto {
+    width: 1200px;
+    margin: auto;
+
 }
 .rss-feed {
     background-color: white;
     float: left;
     width: 200px;
+    border-radius: 5px;
 
 }
 
@@ -49,6 +61,7 @@ main {
     background-color: white;
     width: 600px;
     margin: auto;
+    border-radius: 5px;
 
 }
 
@@ -56,9 +69,17 @@ main {
     background-color: white;
     float: right;
     width: 200px;
+    border-radius: 5px;
 
 }
 
 footer {
     background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+
 }
