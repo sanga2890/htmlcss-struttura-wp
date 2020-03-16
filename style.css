@@ -7,6 +7,7 @@
 #container {
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
     font-family: 'Roboto', sans-serif;
+    padding: 50px;
 }
 
 #contenuto::after{
