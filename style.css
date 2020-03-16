@@ -6,27 +6,57 @@
 
 #container {
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+#container::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 header{
     background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+    width: 1200px;
+    text-align:center;
+    margin:auto;
+    color: white;
+    height: 300px;
+    border: 10px solid white;
+
 }
 
 #menu {
     background-color: grey;
+    text-align: center;
+
+
 
 }
-
+#menu a {
+    text-decoration: none;
+    color: white;
+}
 .rss-feed {
     background-color: white;
+    float: left;
+    width: 200px;
+
 }
 
 main {
     background-color: white;
+    width: 600px;
+    margin: auto;
+
 }
 
 .text {
     background-color: white;
+    float: right;
+    width: 200px;
+
 }
 
 footer {
