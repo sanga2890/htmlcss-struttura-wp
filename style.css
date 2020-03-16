@@ -48,6 +48,10 @@ h2{
     margin-bottom: 20px;
 }
 
+[type]:hover {
+    border-bottom: 2px solid orange;
+}
+
 #menu a {
     text-decoration: none;
     color: white;
